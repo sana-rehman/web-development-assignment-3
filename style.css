@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'merriweather';
+    src: url('Merriweather-Regular.ttf');
+  }
+  *{
+      margin: 0;
+      padding:0;
+  }
+  .topbar{
+    background-color: rgb(75, 75, 221);
+    padding: 10px 40px 10px 40px;
+    min-width: 600px;
+    color: white;
+    display: inline-flex;
+    justify-content:space-around;
+    width: 100%;
+    }
+    .topbar i{
+    padding: 0 10px;
+    color: white;
+    }
+  
+  button{
+    width: 100px;
+  height: 40px;
+  }
+  
+     .logo {
+      height: 50px;
+      position: relative;
+      margin-right: 14%;
+      
+  }
+  .donation{
+      width: 150px;
+  }
+  
+  .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+  
+  
+  #navbar{
+          background-color: #f7f8fa !important;
+      text-align: center;
+      margin-right: -90px;
+      z-index: 10;
+      width: 100%;
+      background-color: white;
+  }
+  
+  #navbar ul{
+      display: inline-flex;
+      list-style: none;
+      color: black;
+      margin-left: 36%;
+      font-size: 14px;
+       margin: 1%;
+       position: relative;
+  }
+  #navbar ul li {
+      
+      margin: 8px;
+      padding: 8px;
+  }
+  
+  #navbar ul li a{
+      text-decoration: none;
+      color: black;
+      
+  }
+  .active, #navbar ul li:hover {
+  
+     background:  rgb(14, 125, 216);
+     border-radius: 45px;
+    height: 35px;
+    z-index: 10;
+   
+  }
+  
+   #navbar .fa {
+      margin-right: 8px;
+      z-index: 10;
+  }
+  
+  .sub-menu-1{
+      display: none;
+      z-index: 10;
+  
+  }
+  
+  #navbar ul li:hover  .sub-menu-1
+  {
+      display: block;
+      position: absolute;
+      background: white;
+      z-index: 10;
+  }
+    #navbar ul li:hover  .sub-menu-1 ul {
+      display: block;
+      margin: 2px;
+      z-index: 10;
+  }
+  
+   
+  #navbar ul li:hover  .sub-menu-1 ul li a:hover {
+      
+      color:black;
+      z-index: 10;
+      
+     
+  }
+  
+  
+  .fa-angle-right {
+      float: right;
+      z-index: 10;
+  }
+  .sub-menu-2 {
+      display: none;
+      z-index: 10;
+  }
+  .hover-me:hover .sub-menu-2{
+      position: relative;
+      display: block;
+      margin-top: -55px;
+      margin-left: 140px;
+      background-color:white;
+      z-index: 10;
+    
+  }  
+  
+  .image{
+  padding:10px;
+  }
+  
+    .header-right {
+      float: right;
+    }
+     
+      
+      .header-right {
+        float: none;
+      }
+    
+    .carousel-item{
+      height: 72vh;
+      min-height: 300px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      background-size: cover;
+      z-index: 0;
+  }
+    marquee{
+      background-color: rgb(73, 73, 219);
+      color: white;
+      margin: 10px;
+      margin-left: 8%;
+      margin-right: 8%;
+      
+  
+    }
+    .intro{
+      padding-top: 60px;
+    }
+    .intro, .one, .two {
+      font-family: merriweather;
+      display: inline;
+      display: flex;
+      justify-content: center;
+    }
+    .one {
+      color:  rgb(75, 75, 221) ;
+    }
+    .two {
+      color: green ;
+    }
+    
+  .intrologo {
+    float: right;
+      margin-right: 45%;
+      position: relative;
+      margin-left: 45%;
+    }
+    
+  
+    .para-intr {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      
+  }
+  
+  .para-div{
+      margin-top: 5% !important;
+      margin-right: 15%;
+      color: gray;
+      margin-left: 15%;
+      line-height: 1.9;
+  } 
+      
+  
+      .count-main {
+        background-color: #316DC3;
+        width: 100%;
+        
+    }
+    .count-1 {
+        padding-bottom: 80px !important;
+        padding-top: 80px !important;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .count-2 {
+        display: inline-flex;
+        width: 100%;
+    }
+    .count-box-1 {
+        width: 100%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    
+    .num {
+        color: white;
+        font-size: 3rem !important;
+        font-family: 'Merriweather', serif;
+        font-weight: 600;
+        line-height: 1.42857143;
+    }
+    
+    .text-1 {
+        color: #fff !important;
+        text-transform: uppercase;
+        font-family: 'Merriweather', serif;
+        line-height: 1.42857143;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+    
+    
+        margin-block-start: 1.67em;
+        margin-block-end: 1.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        
+    }
+  
+  
+  
+      .services{
+        background-color: #f7f8fa !important;
+  }
+  
+  section {
+      position: relative;
+  }
+  .heading {
+    margin-left: 35%;
+    margin-right: 30%;
+  }
+  
+  section > .container, section > .container-fluid {
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+  
+  .asking-text-main {
+      margin-bottom: 30px;
+      text-align: center;
+  }
+  .row {
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+  h2.main-title{
+    font-family: merriweather,serif ;
+    text-align: center;
+    color:blue;
+    margin :20px,0;
+  }
+  .second-color{
+    font-family: meriiweather, serif;
+    color: green;
+  }
+  .asking-text-1{
+      margin-left: 35%;
+      margin-right: 30%;
+  
+  }
+  .title-icon-1 {
+          float: right;
+          margin-right: 37%;
+          position: relative;
+  }
+  
+  .sadqa-box {
+          margin-bottom: 30px !important;
+          padding: 30px !important;
+          box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+          width: 300px;
+          text-align: center;
+      }
+  .sadqa-box-1 {
+      visibility: visible;
+  }
+  .box-font {
+      font-family: 'Merriweather', serif;
+      font-weight: 600;
+      line-height: 1.42857143;
+      color: #316DC3;
+      margin-top: 20px !important;
+      margin-bottom: 10px;
+  }
+  
+  .services-box-main {
+      position: relative;
+      margin-left: 5%;
+  }
+  
+  .sadqa-box-main {
+      margin: 15px;
+  }
+  
+  #box-4 ,#box-5 ,#box-6 {
+     display: inline-flex;
+  }
+  #box-1 ,#box-2 ,#box-3 {
+      display: inline-flex;
+  }
+  
+  
+  .heading-mission {
+    margin-top: 0!important;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+   }
+   
+   h3 ,h4 {
+       font-family: 'Merriweather', serif;
+       font-weight: 600;
+       line-height: 1.42857143;
+       color: #316DC3;
+   }
+   
+   .mission-box-main {
+       margin-top: 0;
+       margin-bottom: 20px !important;
+       padding: 2% !important;
+       background-color: #f7f8fa !important;
+       border: 1px solid #eeeeee !important;
+       width: 50%;
+       
+   }
+   .row {
+       width: 100%;
+   }
+   
+   .mission-box-1{
+   margin-right: 30px;
+   padding: 0;
+   }
+   
+   .media-body {
+       display: table-cell;
+       vertical-align: top;
+   }
+   
+   
+   .mission-content-1 {
+       position: relative;
+       width: 77%;
+   }
+   #mission-3, #mission-4 {
+       margin-top: 20p;
+   }
+   .mission-img {
+       margin-top: -5%;
+   }
+       
+   .scrolup {
+       background-color: white;
+       color: gray;
+       font-size: 14px;
+       line-height: 1.7;
+       font-family: 'Open Sans', sans-serif;
+       margin-top: 15%;
+   }
+   
+  
+   .footer {
+    background-color: rgb(37, 39, 46) !important;
+    height: 55%;
+    position: absolute;
+    width: 100%;
+  }
+  .connect-1 , .useful-main {
+    color:white;
+    font-size: 15px;
+  }
+  h5 
+  {
+    color:white;
+    font-size: 15px !important;
+  }
+  .connect-2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+  }
+  .connect-2 li a {
+    background-color: #316DC3;
+    color: #fff;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  .container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  }
+  
+  .widget{
+     margin-top: 100px;
+  }
+  .ftr-1 li {
+     list-style: none;
+  }
+  
+  .Useful-main , .connect-main {
+     margin-top: 50px;
+     margin-right: 10%;
+  }
+  
+  
+  .footer-bottom{
+    background-color: #316DD9 !important;
+    
+  }
+  
+  .copyright {
+    font-size: 8px !important;
+    color:white;
+  }
+  .copy-1 {
+    margin-left: 100px;
+    margin-top: 15px;
+  }
+  .connect-2 li a .fa {
+    height: 27px;
+    width: 27px;
+    text-align: center;
+  }
